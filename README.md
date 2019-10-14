@@ -11,7 +11,7 @@ DenMap is a program that detects Nmap scans, logs them, and gives alerts to the 
 We wanted to create an application that is able to block and send out alerts when our ports are scanned by potential attackes using Nmap
 
 ### How we built DenMap
-Map needs Pillow, requests, scapy, and tkinter to run. The application is built to send email alerts to the administrator while logging the data into a text file. The GUI is built to show the IP addresses with geolocation and the taken action affected by the IP address. Besides, the user can add an IP address to the whitelist or blacklist in the GUI. The program will check the input to ensure that it's valid.
+DenMap needs Pillow, requests, scapy, and tkinter to run. The application is built to send email alerts to the administrator while logging the data into a text file. The GUI is built to show the IP addresses with geolocation and the taken action affected by the IP address. Besides, the user can add an IP address to the whitelist or blacklist in the GUI. The program will check the input to ensure that it's valid.
 
 ### Challenges we ran into
 * Geolocation of ipstack API. We spend time learning how to apply it to our project.
